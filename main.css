@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fondamento|Quicksand');
+
+body{
+    background-image: url(BBQ-BOSS-Wood-Background-1600.jpg);
+    background-size: cover;
+}
+
+.headerdiv{
+    
+    background-color: rgb(0, 0, 0, .75);
+    color: rgb(209, 206, 168);
+    font-family: 'Fondamento';
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
+    font-size: 3em;
+    text-align: center;
+
+}
+
+.marquee-image{
+    width: 20px;
+    height: 20px;
+}
+
+.mainbutton{
+    height: 80px;
+    width: 100px;
+    float:left;
+
+}
+
+.mainbutton:hover{
+    transform: rotate(15deg);
+
+    background-image: url("whitesparkle.gif");    
+    background-size: contain;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.marquee-image:hover{
+    width: 30px;
+    height: 30px;
+}
+
+.menudiv{
+    float:left;
+    width: 200px;
+    height: 550px;
+    background-size: cover;
+    background-color: rgb(0, 0, 0, .6);
+    color: white;
+    border-radius: 15px;  
+      
+}
+
+.menu-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    transform: rotate(-15deg);    
+    opacity: .75;
+}
+
+.menu-image:hover{    
+    transform: rotate(0deg);
+    background-image: url("whitesparkle.gif");    
+    background-size: contain;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.displaydiv{
+    font-family: 'Quicksand', sans-serif;
+    float:right;
+    width: calc(100% - 210px);
+    height: 550px;
+    background-color: rgb(0, 0, 0, .75);
+    color: rgb(209, 206, 168);
+    border-radius: 15px;
+}
+
+.displaydiv2{
+    float:right;
+    width: calc(100% - 210px);
+    height: 550px;
+    background-color: rgb(0, 0, 0, .75);
+    color: rgb(209, 206, 168);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.interiordiv{
+    margin: 25px;
+}
+
+.displayimg{
+    float: right;
+    width: 25%;
+    margin: 25px;
+}
+
+.centralimage{
+    height: 400px;
+    width: 750px;
+    margin: 25px ;
+    border-radius:50%;
+   
+
+}
